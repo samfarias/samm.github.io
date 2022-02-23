@@ -1,0 +1,35 @@
+body {
+    font-family:  "Sans";
+    background-color: blue;
+    text-align: center;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+
+a :first-child {
+    align-self: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.link {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
